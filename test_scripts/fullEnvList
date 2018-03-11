@@ -1,0 +1,6 @@
+SQL_HOST=172.17.0.1
+SQL_PORT=3306
+SQL_USERNAME=root
+SQL_PASSWORD=P4ssword
+SQL_DB=go_is_awesome
+CREATE_DB=true
