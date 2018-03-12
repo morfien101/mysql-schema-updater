@@ -22,9 +22,9 @@ sqldb | SQL_DB | test | Name of the database that should be used. If used in con
 sqlversion | SQL_VERSION_TABLE | version | The name of the version table to use. If used with create-db it will create this table also.
 scripts-path | SCRIPTS_PATH | /data | Where the sql files are kept.
 create-db | CREATE_DB | false | Should the tool try to bootstrap the server for you also.
-use-environment-variables | - | Use this flag if you want the application to read environment variables. Used primarly with docker containers on orchastrated platforms.
-v | - | Shows the version of the application.
-h | - | Shows the help menu.
+use-environment-variables | - | false | Use this flag if you want the application to read environment variables. Used primarly with docker containers on orchastrated platforms.
+v | - | false | Shows the version of the application.
+h | - | false | Shows the help menu.
 
 Its its naked form the tool can be used with os arguments. See below for an example.
 
